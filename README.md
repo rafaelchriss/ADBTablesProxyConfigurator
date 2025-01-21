@@ -1,5 +1,5 @@
 # ADBTablesProxyConfigurator
-![ADBTablesProxyConfigurator](![app](https://github.com/user-attachments/assets/239b7063-06d5-4fdc-8730-1d384ecd3ae7))
+![ADBTablesProxyConfigurator]("C:\Users\rafae\Downloads\app.jpg")
 
 ## Descrição
 **ADBTablesProxyConfigurator** é uma ferramenta de configuração de proxy via ADB que simplifica a configuração de regras iptables e proxy HTTP global em dispositivos Android.
