@@ -1,4 +1,4 @@
-Compreendi. Vou ajustar o passo a passo para que fique mais claro e fácil de seguir. Aqui está a versão revisada:
+Parece que a imagem sumiu do seu README. Vou adicionar a imagem novamente e ajustar o passo a passo:
 
 ```markdown
 # ADBTablesProxyConfigurator
@@ -33,8 +33,3 @@ chmod +x ADBTablesProxyConfigurator.sh
 ```sh
 ./ADBTablesProxyConfigurator.sh
 ```
-
-### Passo 4: Siga as instruções do script para habilitar ou desabilitar as configurações
-```
-
-Agora, tudo deve estar mais organizado e claro. Se precisar de mais alguma ajuda ou ajustes, estou aqui! 🚀📱
