@@ -1,3 +1,6 @@
+Compreendi. Vou ajustar o passo a passo para que fique mais claro e fácil de seguir. Aqui está a versão revisada:
+
+```markdown
 # ADBTablesProxyConfigurator
 ![ADBTablesProxyConfigurator](https://github.com/user-attachments/assets/6d97f018-b76d-49e1-96db-74114a81a3a8)
 
@@ -19,9 +22,19 @@
 ```sh
 git clone https://github.com/rafaelchriss/ADBTablesProxyConfigurator.git
 cd ADBTablesProxyConfigurator
+```
 
+### Passo 2: Torne o script executável
 ```sh
 chmod +x ADBTablesProxyConfigurator.sh
+```
 
+### Passo 3: Execute o script
 ```sh
 ./ADBTablesProxyConfigurator.sh
+```
+
+### Passo 4: Siga as instruções do script para habilitar ou desabilitar as configurações
+```
+
+Agora, tudo deve estar mais organizado e claro. Se precisar de mais alguma ajuda ou ajustes, estou aqui! 🚀📱
