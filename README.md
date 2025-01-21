@@ -19,3 +19,9 @@
 ```sh
 git clone https://github.com/rafaelchriss/ADBTablesProxyConfigurator.git
 cd ADBTablesProxyConfigurator
+
+```sh
+chmod +x ADBTablesProxyConfigurator.sh
+
+```sh
+./ADBTablesProxyConfigurator.sh
