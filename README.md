@@ -21,6 +21,7 @@ git clone https://github.com/rafaelchriss/ADBTablesProxyConfigurator.git
 cd ADBTablesProxyConfigurator
 
 ### Passo 2: Torne o script executável
-```sh chmod +x ADBTablesProxyConfigurator.sh 
+chmod +x ADBTablesProxyConfigurator.sh 
 
-### Passo 3: Execute o script ```sh ./ADBTablesProxyConfigurator.sh
+### Passo 3: Execute o script
+./ADBTablesProxyConfigurator.sh
