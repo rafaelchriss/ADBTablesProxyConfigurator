@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Função para exibir o banner
+
 print_banner() {
     echo "========================================"
     echo "     ADB IPTABLES - PROXY CONFIG TOOL   "
@@ -8,7 +8,7 @@ print_banner() {
     echo
 }
 
-# Função para exibir uma mensagem de status com formatação
+
 print_status() {
     echo "[*] $1"
 }
@@ -29,7 +29,7 @@ enable_configs() {
     print_status "Proxy HTTP global configurado."
 }
 
-# Função para desabilitar as configurações
+
 disable_configs() {
     print_status "Removendo regras de iptables..."
     adb shell "iptables -t nat -C OUTPUT -p tcp --dport 80 -j DNAT --to-destination 127.0.0.1:8191" 2>/dev/null && \
@@ -52,24 +52,23 @@ disable_configs() {
     print_status "Proxy HTTP global desativado."
 }
 
-# Exibir o banner
+
 print_banner
 
-# Verificar se o adb está instalado
+
 if ! command -v adb &> /dev/null; then
     echo "[X] Erro: adb não está instalado ou não está no PATH."
     exit 1
 fi
 print_status "ADB encontrado no sistema."
 
-# Verificar se o dispositivo está conectado
+
 if ! adb devices | grep -q "device$"; then
     echo "[X] Erro: Nenhum dispositivo conectado. Conecte um dispositivo e tente novamente."
     exit 1
 fi
 print_status "Dispositivo conectado."
 
-# Perguntar ao usuário se deseja habilitar ou desabilitar as configurações
 echo "Deseja habilitar ou desabilitar as configurações?"
 echo "1. Habilitar"
 echo "2. Desabilitar"
@@ -88,7 +87,7 @@ case $choice in
         ;;
 esac
 
-# Exibir mensagem de conclusão
+
 echo
 echo "========================================"
 echo "    OPERAÇÃO CONCLUÍDA COM SUCESSO! "
