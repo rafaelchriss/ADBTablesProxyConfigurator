@@ -1,6 +1,3 @@
-Parece que a imagem sumiu do seu README. Vou adicionar a imagem novamente e ajustar o passo a passo:
-
-```markdown
 # ADBTablesProxyConfigurator
 ![ADBTablesProxyConfigurator](https://github.com/user-attachments/assets/6d97f018-b76d-49e1-96db-74114a81a3a8)
 
@@ -22,14 +19,3 @@ Parece que a imagem sumiu do seu README. Vou adicionar a imagem novamente e ajus
 ```sh
 git clone https://github.com/rafaelchriss/ADBTablesProxyConfigurator.git
 cd ADBTablesProxyConfigurator
-```
-
-### Passo 2: Torne o script executável
-```sh
-chmod +x ADBTablesProxyConfigurator.sh
-```
-
-### Passo 3: Execute o script
-```sh
-./ADBTablesProxyConfigurator.sh
-```
